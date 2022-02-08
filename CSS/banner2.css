@@ -1,0 +1,42 @@
+.banner-2{
+    width: 100%;
+    height: 400px;
+    display: flex;
+    flex-direction: column; 
+    justify-content: center;
+    align-items: center;
+}
+.container-banner-2{
+    display: flex;
+    justify-content: center;
+    flex-direction: column; 
+    align-items: center;
+    width: 100%;
+    height: 100%;
+    background: #02dec4;
+}
+
+.title-banner-2{
+    font-size: 48px;
+    font-weight: 800;
+    margin-right: 50px;
+    width: 150px;
+}
+.paragraph-banner-2{
+    font-size: 36px;
+    text-align: justify;
+}
+.content-banner-2{
+    display: flex;
+    align-items: center;
+    height: 300px;
+    max-width: 900px;
+}
+@media (max-width:1140px) {
+    .title-banner-2{
+        font-size: 48px;
+    }
+    .paragraph-banner-2{
+        font-size: 24px;
+}
+}

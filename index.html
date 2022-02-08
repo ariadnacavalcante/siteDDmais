@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;700&display=swap" rel="stylesheet">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <link rel="shortcut icon" type="imagem/png" href="/assets/Vector (1).png" />
+    <title> Plataforma DD+</title>
+    <link href="css/global.css" rel="stylesheet">
+    <link href="css/header.css" rel="stylesheet">
+    <link href="css/banner1.css" rel="stylesheet">
+    <link href="css/banner2.css" rel="stylesheet">
+    <link href="css/aboutplataform.css" rel="stylesheet">
+    <link href="css/products.css" rel="stylesheet">
+    <link href="css/footer.css" rel="stylesheet">
+    <script>
+        function ScrollToProducts(){
+            $("html, body").animate({ scrollTop: $('#produtos').offset().top }, 1000);
+        }
+        function ScrollToAboutPlataform(){
+            $("html, body").animate({ scrollTop: $('#plataform').offset().top }, 1000);
+        }
+        function ScrollToAboutUs(){
+            $("html, body").animate({ scrollTop: $('#about').offset().top }, 1000);
+        }
+    </script>
+</head>
+
+<body>
+    <header>
+        <section class="container-header">
+           <div class="menu-content">
+            <img src="./assets/DD+logo.gif" alt="DD+logo" class="logo">
+            <ul class="menu">
+                <li class="menu-item"> <button class="button-menu-item" onclick="ScrollToAboutUs()"> Sobre nós </button></li>
+                <li class="menu-item"> <button class="button-menu-item" onclick="ScrollToAboutPlataform()"> Plataforma </button> </li>
+                <li class="menu-item"> <button class="button-menu-item" onclick="ScrollToProducts()"> Produtos </button></li>
+                <li class="menu-item"> <a href="#" class="link-menu">Login</a> </li>
+            </ul> 
+           </div>
+        </section>
+    </header>
+    <section class="banner-1">
+        <div class="container-banner-1">
+            <p class="paragraph-banner"> Uma plataforma feita por e para alunos de DD.</p>
+            <img src="./assets/logoh.png" alt="logoh" class="logo-banner">
+        </div>
+    </section>
+    <section class="banner-2" id="about">
+        <div class="container-banner-2">
+            <div class="content-banner-2">
+                <h1 class="title-banner-2">Sobre nós</h1>
+                <p class="paragraph-banner-2">Somos uma plataforma com o objetivo de informar sobre o curso de Design Digital (UFC - Quixadá) e suas diversas ramificações.</p>
+            </div>
+        </div>
+    </section>
+
+    <section class="about-plataforma" id="plataform">
+        <img src="./assets/Frame 24 (4).svg" alt="banner-3" class="banner-3">
+        <video controls>
+            <source src="./assets/VÍDEO CONCEITUAL.mp4" type="video/mp4">
+        </video>
+        <section class="infos">
+            <h2 class="title-infos">De alunos para alunos</h2>
+            <ul class="list-infos">
+                <li class="item-info">
+                    <spam class="number">
+                        1.
+                    </spam>
+                    <p class="info"> Um ambiente digital para aprender + sobre design.</p>
+                </li>
+                <li class="item-info">
+                    <spam class="number">
+                        2.
+                    </spam>
+                    <p class="info"> Abrange diversos assuntos, sendo multidisciplinar.</p>
+                </li>
+                <li class="item-info-3">
+                    <spam class="number">
+                        3.
+                    </spam>
+                    <p class="info"> Uma rede para se conectar e aprender, fazendo amizades e conexões profissionais.</p>
+                </li>
+            </ul>
+        </section>
+        <section class="socialmidia">
+            <h2 class="title-socialmedia">Estamos na rede!</h2>
+            <a href="https://www.instagram.com/ddmais.ufc/" class="link-socialmedia">
+                <img src="./assets/instagram.png" alt="instagram" class="img-instagram">
+                @ddmais.ufc
+            </a>
+            <div class="img-socialmedia">
+                <img src="./assets/foto1.png" alt="foto1" class="img-foto-1">
+                <img src="./assets/foto2.png" alt="foto2" class="img-foto-1">
+                <img src="./assets/foto3.png" alt="foto3"class="img-foto-2">
+                <img src="./assets/foto4.png" alt="foto4"class="img-foto-2">
+            </div>
+           
+        </section>
+    </section>
+    <section class="produtos" id="produtos">
+        <h2 class="title-products">Produtos DD+</h2>
+        <div class="content-produtcs">
+            <div class="card-product produtos-1">
+                <img src="./assets/caderno.png" alt="caderno"class="foto-produto">
+                <spam class="label-product"> Cardeneta DD+ </spam>
+            </div>
+            <div class="card-product produtos-1">
+                <img src="./assets/bottom.png" alt="bottons"class="foto-produto">  
+                <spam class="label-product"> Bottons DD+ </spam>
+            </div>
+            <div class="card-product produtos-2">
+                <img src="./assets/bolsa.png" alt="bolsa"class="foto-produto">
+                <spam class="label-product"> Ecobag DD+ </spam>
+            </div>
+            <div class="card-product produtos-2">
+                <img src="./assets/garrafa.png" alt="garrafa"class="foto-produto">
+                <spam class="label-product"> Garrafa DD+ </spam>
+            </div>
+        </div>
+        
+
+    </section>
+    <section class="container-footer">
+        <img src="./assets/10 2.png" alt="logo" class="logo-footer">
+        <ul class="footer-menu">
+            <li class="footer-item"> <button class="button-footer-item"> Contato </button> </li>
+            <li class="footer-item"> <button class="button-footer-item"> Produtos </button> </li>
+            <li class="footer-item"> <button class="button-footer-item"> Trabalhe Conosco </button></li>
+        </ul> 
+    </section>
+
+</body>
+
+</html>

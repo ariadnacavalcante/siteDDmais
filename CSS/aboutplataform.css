@@ -1,0 +1,128 @@
+
+.about-plataforma{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.banner-3{
+    width: 100%;
+    margin: 50px 0;
+}
+.info{
+    font-size: 36px;
+    font-weight: 300;
+}
+.number{
+    font-size: 36px;
+    font-weight: 800;
+    color:#EC276F;
+    margin-right: 20px;
+
+}
+.title-infos{
+    font-size: 48px;
+    font-weight: 600;
+}
+.infos{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin-top: 100px;
+}
+.list-infos{
+    width: 1050px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+.item-info{
+    width: calc(50% - 100px);
+    margin: 100px 100px 0 0;
+    display: flex;
+    padding: auto;
+}
+
+.item-info-3 {
+    width: 60%;
+    margin: 100px 0 0 0;
+    display: flex;
+}
+
+.socialmidia{
+    width: 1000px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin-top: 100px;
+}
+
+.title-socialmedia{
+    font-size: 48px;
+    font-weight: 800;
+}
+.img-instagram{
+    width: 57px;
+    height: 57px;
+    margin-right: 20px;
+    display: flex;
+
+}
+
+.link-socialmedia{
+    width: 100%;
+    height: 130px;
+    background:#B276FF;
+    border-radius: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-decoration: none;
+    font-size: 36px;
+    font-weight: 600;
+    color: #000;
+    margin-top: 50px;
+}
+.img-socialmedia{
+    width: 90%;
+    display: flex;
+    justify-content: space-between; 
+    align-items: center;
+    flex-wrap: wrap;
+}
+.img-foto-1{
+    margin-top: 50px;
+    width: 400px;
+    height: 542.4px;
+    transition: 0.5s;
+}
+.img-foto-1:hover{
+    transform: scale(1.1); 
+}
+.img-foto-2{
+    margin-top: 50px;
+    width: 400px;
+    height: 542.4px;    
+    transition: 0.5s;
+}
+.img-foto-2:hover{
+    transform: scale(1.1); 
+}
+
+
+@media (max-width:1140px) {
+    .list-infos{
+        width: 100%;
+    }
+    .socialmidia{
+        width: 100%;
+    }
+    .img-socialmedia{
+        justify-content: center; 
+    }
+    
+}
